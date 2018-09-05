@@ -9,24 +9,7 @@
 </head>
 <body>
 <f:view>
-
-		<h:inputText></h:inputText><form>
-			<input type="button" value="Home"/>
-			<input type="button" value="Browse Movies"/>
-			<input type="button" value="Login"/><input type="button" value="Register"/> 
-			</form><jsp:text></jsp:text><jsp:text>YIFY movies: quality & small size YTS movies </jsp:text><br/><h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage><br />
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage><br />
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage>
-		<h:graphicImage></h:graphicImage><br /><h:graphicImage></h:graphicImage><h:graphicImage></h:graphicImage><h:graphicImage></h:graphicImage>
-		
+		<h:graphicImage  value = "http://www.tutorialspoint.com/images/jsf-mini-logo.png"/> 
 	</f:view>
 </body>
 </html>

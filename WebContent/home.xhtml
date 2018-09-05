@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml" 
+xmlns:f="http://java.sun.com/jsf/core" 
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:ui = "http://java.sun.com/jsf/facelets" >
+   <h:head>
+   </h:head>
+   
+   <h:body>
+   		<h:outputStylesheet library="css" name="style.css"/>
+   		<div style = "border-width:2px; border-color:green; border-style:solid;">
+         	<ui:insert name = "header" >
+            	<ui:include src = "/header.xhtml" />
+         	</ui:insert> 
+      	</div>
+   		<p align="center">
+
+Welcome to YTS.AM | YTS.AG, the only official source for YTS YIFY movies. YIFY movies are best known for the excellent BluRay quality at small file-size, which can be downloaded fast for free. YTS movies are encoded using x264 codec and MP4 container for best compatibility with all devices, so all users around the world can download YIFY torrents and enjoy the movies.</p>
+      <f:view>
+      	<hr/>
+      	
+		<div>
+			<h:graphicImage value = "/images/image1.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image2.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image3.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image4.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+		</div>
+		<br/>
+		<div>
+			<h:graphicImage value = "/images/image5.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image6.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image7.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image8.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+		</div>
+		<br/>
+		<div>
+			<h:graphicImage value = "/images/image9.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image10.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image11.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+			<h:graphicImage value = "/images/image12.jpg" style="margin:10px; padding:10px;"></h:graphicImage>
+		</div>
+		<br/>
+		<hr/>
+		<div style = "border-width:2px; border-color:red; border-style:solid;">
+        	<ui:insert name = "footer" >
+            	<ui:include src = "/footer.xhtml" />
+         	</ui:insert>
+      	</div>
+	</f:view>
+   </h:body>
+</html>
